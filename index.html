@@ -69,4 +69,4 @@ function loop(){requestAnimationFrame(loop);const dt=Math.min(clk.getDelta(),0.0
  const c=ship.position;cam.position.set(c.x+Math.sin(orb.a+ship.rotation.y)*Math.cos(orb.e)*orb.d,c.y+Math.sin(orb.e)*orb.d,c.z+Math.cos(orb.a+ship.rotation.y)*Math.cos(orb.e)*orb.d);cam.lookAt(c.x,c.y+4,c.z);
  sea.position.x=c.x;sea.position.z=c.z;R.render(scene,cam)}
 loop();addEventListener('resize',()=>{cam.aspect=innerWidth/innerHeight;cam.updateProjectionMatrix();R.setSize(innerWidth,innerHeight)});
-</script></body></html>
+</script><!--cb-game-cart-start--><section id="cb-game-cart" data-store="titanic-ship-builder" aria-label="Cart"><script type="application/json" id="cb-game-cart-data">{"storeId":"titanic-ship-builder","currency":"USD","items":[{"id":"full","name":"Coffeebreak Titanic: Ship Builder","amount":"10.00","currency":"USD"}]}</script></section><script src="payid-cart/cart.js"></script><script src="payid-cart/game-cart.js"></script><script src="payid-cart/game-mount.js"></script><!--cb-game-cart-end--></body></html>
